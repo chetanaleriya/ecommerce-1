@@ -1,0 +1,32 @@
+.footer1{
+    background-color:rgb(75, 74, 74);
+    color: white;
+    padding: 40px 60px 40px 60px;
+}
+.footer1 button{
+    background-color: rgb(75, 74, 74);
+    border-radius: 20px;
+    border-color: red;
+    padding: 4px 20px 4px 20px;
+    color: white;
+    font-weight: 500;
+}
+.footer1 button:hover{
+    background-color: red;
+}
+.footer2{
+    margin-top: -50px;
+    margin-left: 800px;
+}
+.footer3{
+    margin-left: 790px;
+    font-size: larger;
+    font-weight: 500;
+}
+.p1 a{
+ text-decoration: none;
+ color: white;
+}
+.p1 a:hover{
+    color: red;
+}

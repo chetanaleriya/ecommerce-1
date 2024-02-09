@@ -1,0 +1,26 @@
+.login1{
+    background-color:rgb(75, 74, 74) ;
+    padding: 100px 300px 100px 300px;
+}
+.login2{
+    background-color: rgb(75, 74, 74);
+    border-radius: 20px;
+    text-align: center;
+    /* margin: 100px 300px 100px 300px; */
+    padding: 50px 0 50px 0;
+    border-style: solid;
+    border-color: red;
+    border-width: 3px;
+}
+.login2 input{
+    background-color: rgb(75, 74, 74);
+    color: red;
+    border-color:white;
+    border-width: 1px;
+}
+.login2 button{
+    background-color:red;
+    color: rgb(75, 74, 74);
+    border-style: none;
+    border-radius: 10%;
+}

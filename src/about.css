@@ -1,0 +1,18 @@
+.about1{
+    margin: 70px;
+}
+.about2{
+    margin-right: 50%;
+    padding-right: 50px;
+}
+.about3{
+    margin-top: -280px;
+    margin-left: 50%;
+}
+.about2 h1{
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.about2 p{
+    color: rgb(100, 99, 99);
+}
