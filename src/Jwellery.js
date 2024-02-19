@@ -11,7 +11,8 @@ import {
     MDBCol,
     MDBBtn
   } from 'mdb-react-ui-kit';
-import { Link } from "react-router-dom"
+// import { Link } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 
 function Jwellery()
 {
@@ -24,6 +25,13 @@ function Jwellery()
             })
         })
     },[])
+
+    const navigate=useNavigate();
+    const handleClick=(pid)=>
+    {
+            const data={name:pid}
+            navigate("/details",{state:data})
+    }
     return(
         <div>
 
@@ -38,7 +46,7 @@ function Jwellery()
               <MDBCardTitle>{item.title}</MDBCardTitle>
               <MDBCardTitle>{item.price*80} Rs</MDBCardTitle>
               <MDBCardText>{item.description.substring(0,100)} </MDBCardText>
-              <MDBBtn>View Details</MDBBtn>
+              <center> <MDBBtn varient="primary" onClick={()=>handleClick(item.id)}>View Details {item.id}</MDBBtn></center>
             </MDBCardBody>
           </MDBCard> 
            

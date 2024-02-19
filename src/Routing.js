@@ -12,6 +12,7 @@ import Mens from "./Mens"
 import Jwellery from "./Jwellery"
 import Map from "./Map"
 import Register from "./Register"
+import Details from "./Details"
 
 function Routing()
 {
@@ -28,6 +29,7 @@ function Routing()
             <Route path="Electronics" element={<Electronics></Electronics>}></Route>
             <Route path="Womens" element={<Womens></Womens>}></Route>
             <Route path="Mens" element={<Mens></Mens>}></Route>
+            <Route path="details" element={<Details></Details>}></Route>
             
             <Route path="Jwellery" element={<Jwellery></Jwellery>}></Route>
         </Routes>
